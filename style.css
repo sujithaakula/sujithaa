@@ -1,0 +1,47 @@
+.bannerBgImage {
+     background-image: url('bannername.jpg');
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+     background-size: cover;
+}
+
+.bannerText { 
+    text-align: right;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+.bannerTitle {
+    font-size: 4rem;
+
+}
+.bannerDesc {
+    font-size: 2rem;
+
+}
+
+.card {
+    cursor: pointer;
+
+}
+
+.card:hover {
+
+    background-color: whitesmoke;
+    border: 2px solid black;
+}
+
+.bIcon {
+  width: 100%;
+  text-align: center;
+  font-size: 40px;
+
+
+}
+
+.img-fluid:hover {
+    border: 2px solid black;
+
+}
